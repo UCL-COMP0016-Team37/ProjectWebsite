@@ -8,14 +8,14 @@ permalink: /evaluation/
 
 <table>
 <tr><th>Requirement</th><th>Importance</th><th>Completed</th><th>Contributors</th></tr>
-<tr><td>Mapping tool that shows position of projects around the world.</td><td>Must</td><td>No</td><td>All</td></tr>
+<tr><td>Mapping tool that shows position of projects around the world.</td><td>Must</td><td>Yes</td><td>All</td></tr>
 <tr><td>Search and filter projects by criteria.</td><td>Must</td><td>No</td><td>All</td></tr>
 <tr><td>Filter all maps by thematic area.</td><td>Must</td><td>No</td><td>All</td></tr>
 <tr><td>Filter all maps by funder.</td><td>Must</td><td>No</td><td>All</td></tr>
 <tr><td>Visualize category of funding.</td><td>Must</td><td>No</td><td>All</td></tr>
 <tr><td>Visualize where and who donations are from.</td><td>Must</td><td>No</td><td>All</td></tr>
 
-<tr><td>Use data from IATA.</td><td>Should</td><td>No</td><td>All</td></tr>
+<tr><td>Use data from IATA.</td><td>Should</td><td>Yes</td><td>All</td></tr>
 <tr><td>Distinguish and track data licensing so may be filtered and disclosed to the user.</td><td>Should</td><td>No</td><td>All</td></tr>
 <tr><td>Point map of locations for projects being carried out.</td><td>Should</td><td>No</td><td>All</td></tr>
 <tr><td>Display points grouped by nation and zoom in to see sub-national (like NGO aid map).</td><td>Should</td><td>No</td><td>All</td></tr>
@@ -43,7 +43,7 @@ permalink: /evaluation/
 
 ### Contribution Table
 <table>
-<tr><th>Work packages</th><th></th><th></th><th></th></tr>
+<tr><th>Work packages</th><th>Afiq</th><th>Ruairidh</th><th>Yangtao</th></tr>
 <tr><td>Client liaison</td><td>33%</td><td>33%</td><td>33%</td></tr>
 <tr><td>Requirement analysis</td><td>33%</td><td>33%</td><td>33%</td></tr>
 <tr><td>Research</td><td>33%</td><td>33%</td><td>33%</td></tr>
@@ -52,5 +52,5 @@ permalink: /evaluation/
 <tr><td>Testing</td><td>33%</td><td>33%</td><td>33%</td></tr>
 <tr><td>Bi-weekly Report</td><td>33%</td><td>33%</td><td>33%</td></tr>
 <tr><td>Website Editing</td><td>33%</td><td>33%</td><td>33%</td></tr>
-<tr><td>Roles</td><td></td><td></td><td></td></tr>
+<tr><td>Roles</td><td>Frontend</td><td>Frontend and Website Management</td><td>Backend</td></tr>
 </table>
