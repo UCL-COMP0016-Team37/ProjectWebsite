@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Evaluation
-permalink: /Evaluation/
+permalink: /evaluation/
 ---
 
 ### Achievement Table

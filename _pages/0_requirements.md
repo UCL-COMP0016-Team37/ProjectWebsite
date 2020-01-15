@@ -13,47 +13,47 @@ Data licensing also needs to be taken into account, most of the IATI data is ope
 
 #### Must have:
 
-Mapping tool
+Mapping tool that shows position of projects around the world.
 
-Search and filter data
+Search and filter projects by criteria.
 
-Filter all maps by thematic area
+Filter all maps by thematic area.
 
-Filter all maps by funder
+Filter all maps by funder.
 
-Visualize category of funding
+Visualize category of funding.
 
-Visualize where and who donations are from
+Visualize where and who donations are from.
 
 #### Should have:
 
-Use data from IATA
+Use data from IATA.
 
-Distinguish and track data licensing so may be filtered and disclosed to the user
+Distinguish and track data licensing so may be filtered and disclosed to the user.
 
-Point map of locations for projects being carried out
+Point map of locations for projects being carried out.
 
-Display points grouped by nation and zoom in to see sub-national (like NGO aid map)
+Display points grouped by nation and zoom in to see sub-national (like NGO aid map).
 
-Map distribution of thematic areas
+Map distribution of thematic areas.
 
-Map funding
+Map displays funding.
 
-Map top 100 donors
+Map top 100 donors / donor countries.
 
-Generate graphs based on search
+Generate graphs based on search.
 
-Generate graphs for individual project
+Generate graphs for individual project.
 
 #### Could have:
 
-Substitute sample data (IATA) with real member data
+Substitute sample data (IATA) with real member data.
 
-Be open public tool
+Be open public tool rather than a private tool used only by the ANCSSC.
 
-Map funding flow donations
+Map funding flow donations.
 
-Login to view different licenced data
+Login to view different licensed data.
 
 #### Wish had:
 
