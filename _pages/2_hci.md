@@ -17,6 +17,8 @@ Which kind of way would you access the data?
 
 ### Personas
 ![]({{site.baseurl}}/images/persona.png)
+Lochlan Deacon is a NGO project manager and wants to find out more information about other NGOs around the world, where they are located, what sector they are in and how much funding they have. This data is available but it is raw and unprocessed making it difficult for him to understand what it means. He navigates to the tool provided by ANCSSC. He sees a map showing a point map of projects by location. There are different modes he can switch to including funding flow, sector and funding. He can search for keywords and apply filters with the map updating in real time to his changes. He can now understands the data and has gained an insight into how the NGOs are distributed around the world.
+
 
 ### Sketches
 ![]({{site.baseurl}}/images/sketch1.png)
