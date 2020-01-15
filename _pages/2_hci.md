@@ -25,4 +25,14 @@ Which kind of way would you access the data?
 ![]({{site.baseurl}}/images/sketch4.png)
 
 ### Prototype
+We then came up with a prototype using Balsamiq to further explore the feasibility and usability of our sketch. 
+
+The pictures shown are the web pages with the key functionalities and requirements. The arrows represents a link to a new web page after the user clicks on that particular text or icon. 
+
 ![]({{site.baseurl}}/images/hci-prototype.png)
+
+### Improved Prototype
+Our project underwent an iteration in the development life cycle as we revised the design for our prototype according to the evaluation results.
+
+![]({{site.baseurl}}/images/hci-prototype2.png)
+![]({{site.baseurl}}/images/hci-prototype3.png)
