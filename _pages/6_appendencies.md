@@ -7,18 +7,26 @@ permalink: /appendices/
 ### Deployment manual
 
 #### Frontend
+Frontend is deployed based on Node.js server structure and developed using React.js, hence, we use `npm` to deploy and install dependencies.
 
-First run to install dependencies:
-#### `npm install`
-
-To deploy to `build` folder:
-#### `npm run build`
-
-To run locally:
-#### `npm start`
+For running it on the local machines, we needs to do following:
+* To install dependencies by running `npm install`
+* To deploy to `build` folder by running `npm run build`
+* To run locally by running `npm start`
 
 
 #### Backend
+Backend is deployed on **Azure Web** server which and will be automatically deploy for any trigers push on *prod* branch through the DevOp setting on *Azure Pipeline*. 
+For local deployments, since *prod* branch is connected to the pipeline, a *master* branch is design for **localhost** running. 
+
+In order to do so, we needs to do following:
+* Checkout to a *HEAD* version on *master* branch.
+* Have `mvn` installed
+* Run `mvn clean package` to download all the dependencies
+* Run `mvn spring-boot:run` to start the backend server.
+
+Also, for testing and developing purposes, we design an interactive API Document which is avaliable [here](https://mapping-tool-api.azurewebsites.net/swagger-ui.html#/). 
+
 
 ### Bi-weekly reports
 
