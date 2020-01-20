@@ -194,17 +194,28 @@
 				<h3 id="deployment-manual">Deployment manual</h3>
 
 <h4 id="frontend">Frontend</h4>
+<p>Frontend is deployed based on Node.js server structure and developed using React.js, hence, we use <code class="highlighter-rouge">npm</code> to deploy and install dependencies.</p>
 
-<p>First run to install dependencies:</p>
-<h4 id="npm-install"><code class="highlighter-rouge">npm install</code></h4>
-
-<p>To deploy to <code class="highlighter-rouge">build</code> folder:</p>
-<h4 id="npm-run-build"><code class="highlighter-rouge">npm run build</code></h4>
-
-<p>To run locally:</p>
-<h4 id="npm-start"><code class="highlighter-rouge">npm start</code></h4>
+<p>For running it on the local machines, we needs to do following:</p>
+<ul>
+  <li>To install dependencies by running <code class="highlighter-rouge">npm install</code></li>
+  <li>To deploy to <code class="highlighter-rouge">build</code> folder by running <code class="highlighter-rouge">npm run build</code></li>
+  <li>To run locally by running <code class="highlighter-rouge">npm start</code></li>
+</ul>
 
 <h4 id="backend">Backend</h4>
+<p>Backend is deployed on <strong>Azure Web</strong> server which and will be automatically deploy for any trigers push on <em>prod</em> branch through the DevOp setting on <em>Azure Pipeline</em>. 
+For local deployments, since <em>prod</em> branch is connected to the pipeline, a <em>master</em> branch is design for <strong>localhost</strong> running.</p>
+
+<p>In order to do so, we needs to do following:</p>
+<ul>
+  <li>Checkout to a <em>HEAD</em> version on <em>master</em> branch.</li>
+  <li>Have <code class="highlighter-rouge">mvn</code> installed</li>
+  <li>Run <code class="highlighter-rouge">mvn clean package</code> to download all the dependencies</li>
+  <li>Run <code class="highlighter-rouge">mvn spring-boot:run</code> to start the backend server.</li>
+</ul>
+
+<p>Also, for testing and developing purposes, we design an interactive API Document which is avaliable <a href="https://mapping-tool-api.azurewebsites.net/swagger-ui.html#/">here</a>.</p>
 
 <h3 id="bi-weekly-reports">Bi-weekly reports</h3>
 
