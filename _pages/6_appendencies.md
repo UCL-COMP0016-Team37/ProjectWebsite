@@ -14,6 +14,8 @@ For running it on the local machines, we needs to do following:
 * To deploy to `build` folder by running `npm run build`
 * To run locally by running `npm start`
 
+The frontend is available [here](http://mappingtoolfrontend.azurewebsites.net/).
+
 
 #### Backend
 Backend is deployed on **Azure Web** server which and will be automatically deploy for any trigers push on *prod* branch through the DevOp setting on *Azure Pipeline*. 

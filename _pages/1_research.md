@@ -8,10 +8,12 @@ permalink: /research/
 We looked at projects that provide a similar solution.
 
 ![]({{site.baseurl}}/images/ngo-aid-map.png)
+([https://ngoaidmap.org/](https://ngoaidmap.org/), 2020)
 
 NGO Aid Map [https://ngoaidmap.org/](https://ngoaidmap.org/) is a website that provides tools to find and filter NGO projects. They currently have 988 projects with 66 organizations. Their website allows users to navigate using a map clicking on countries to view the projects there. It also has a search which can filter by sector, location and reporting organization.
 
 ![]({{site.baseurl}}/images/ngo-aid-map-search.png)
+([https://ngoaidmap.org/](https://ngoaidmap.org/), 2020)
 
 ### Data Sets:
 
