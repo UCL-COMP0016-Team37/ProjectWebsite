@@ -6,10 +6,15 @@ permalink: /prototype/
 
 Our first prototype tests the essential technologies for our application.
 It has a frontend and backend that communicate.
+This prototype aims to build a resuable and extendable frontend and backend structure rather than build beautiful UIs and different functionalities.
+The main achievement is designing the whole structure of commnication from user all the way for accessing the related data in the database.
+
+### System Architecture Diagram
+Here is the diagram of our system architecture which display the communication between frontend (client website) and backend (data server and database):
+![]({{site.baseurl}}/images/architecture.jpg)
 
 ### Backend
 The backend has a SpringBoot api to allow the frontend to communicate with it and a database of over a thousand projects.
-
 Backend is deployed on the **Azure** web server, which includes the web server and database. 
 ![]({{site.baseurl}}/images/back-azure.jpg)
 
