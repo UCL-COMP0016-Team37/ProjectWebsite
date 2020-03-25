@@ -33,6 +33,11 @@ permalink: /evaluation/
 <tr><td>Substitute sample data (IATI) with real member data.</td><td>Wish</td><td>No</td><td>All</td></tr>
 </table>
 
+<p>
+    Note : After researching and discussing with our client, we are no longer required to do the login and license filtering as the functionalities will be handled by the master's team during integration.  Instead, we are required to add ability to show the pin in different kind of map such as satellite map.
+    In addition, the filter by funder is not possible due to the limitation of IATI cloud which does not provide the functionalities for us to obtain such kinds of data quickly to serve the frontend.
+</p>
+
 ### Bug List
 <table>
 <tr><th>ID</th><th>Description</th><th>Priority</th><th>Resolution</th></tr>
