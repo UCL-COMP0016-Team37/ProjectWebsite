@@ -35,8 +35,8 @@ permalink: /evaluation/
 
 ### Bug List
 <table>
-<tr><th>ID</th><th>Description</th><th>Priority</th></tr>
-<tr><td>1</td><td>react-bing-map does not support dynamic mapping</td><td>High</td></tr>
+<tr><th>ID</th><th>Description</th><th>Priority</th><th>Resolution</th></tr>
+<tr><td>1</td><td>react-bing-map does not support dynamic mapping</td><td>High</td><td>Switched map library to mapbox</td></tr>
 </table>
 
 ### Contribution Table
