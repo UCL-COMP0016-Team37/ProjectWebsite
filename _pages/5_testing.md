@@ -21,10 +21,10 @@ We used a sample project controller with some fake data as a test for basic func
 #### Performance test
 We could test the time for API requesting (Swagger has a response time entity for every API), and every page response time for the frontend. This would help us to identify bottlenecks in our performance and introduce caching strategies for systems that do not change regularly and take a long time to run.
 
-#### User acceptance Test (add more description)
+#### User acceptance Test
 We asked users to use our site by watching and asking them questions we could identify how they used the site versus how they wanted to use the site. We could then take these results and try and remove the difference.
 We also got feedback from our project partner and teaching assistants. Our project partner mostly agreed and was satisfied with our design and functionalities. We would also discuss new features and we could hear the feedback about how useful they think they would be.
 We got feedback about the how users used the site regularly. With this feedback we made many revisions and redesigns to improve the usability and how intuitive the tool is. 
 
 #### Responsive design testing
-We determined early on that our tool would have to work on computer screens. We chose not to build it for mobile because it would be very difficult to display quality, detailed data on a small display and our client did not require it. We designed the website for 
+We determined early on that our tool would have to work on computer screens. We chose not to build it for mobile because it would be very difficult to display quality, detailed data on a small display and our client did not require it. This is because our intended user are the NGOs and CSOs which we believe do their research on computer screens instead of a mobile devices.  
