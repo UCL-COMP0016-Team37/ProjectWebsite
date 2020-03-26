@@ -29,7 +29,7 @@ The main achievement is designing the whole structure of commnication from user 
 
 ### System Architecture Diagram
 Here is the diagram of our system architecture which display the communication between frontend (client website) and backend (data server and database):
-![]({{site.baseurl}}/images/architecture.png)
+![]({{site.baseurl}}/images/architecture.jpg)
 
 ### Backend
 The backend has a SpringBoot api to allow the frontend to communicate with it and a database of over a thousand projects.

@@ -11,7 +11,7 @@ permalink: /evaluation/
 <tr><td>Mapping tool that shows position of projects around the world.</td><td>Must</td><td>Yes</td><td>All</td></tr>
 <tr><td>Search and filter projects by criteria.</td><td>Must</td><td>Yes</td><td>All</td></tr>
 <tr><td>Filter all maps by thematic area.</td><td>Must</td><td>Yes</td><td>All</td></tr>
-<tr><td>Filter all maps by funder.</td><td>Must</td><td>No</td><td>All</td></tr>
+<tr><td>Filter all maps by funder.</td><td>Must</td><td>Yes</td><td>All</td></tr>
 <tr><td>Visualize category of funding.</td><td>Must</td><td>Yes</td><td>All</td></tr>
 <tr><td>Visualize where and who donations are from.</td><td>Must</td><td>Yes</td><td>All</td></tr>
 
@@ -35,7 +35,6 @@ permalink: /evaluation/
 
 <p>
     Note : After researching and discussing with our client, we are no longer required to do the login and license filtering as the functionalities will be handled by the master's team during integration.  Instead, we are required to add ability to show the pin in different kind of map such as satellite map.
-    In addition, the filter by funder is not possible due to the limitation of IATI cloud which does not provide the functionalities for us to obtain such kinds of data quickly to serve the frontend.
 </p>
 
 ### Bug List
