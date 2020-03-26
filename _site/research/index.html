@@ -82,14 +82,6 @@
               
                 
               
-              <li class="nav__item">
-                <a href="/2019/group37/prototype/" class="nav__link">Prototype</a>
-              </li>
-              
-                
-              
-                
-              
                 
               
               <li class="nav__item">
@@ -110,14 +102,6 @@
               
               <li class="nav__item">
                 <a href="/2019/group37/evaluation/" class="nav__link">Evaluation</a>
-              </li>
-              
-                
-              
-                
-              
-              <li class="nav__item">
-                <a href="/2019/group37/future/" class="nav__link">Future</a>
               </li>
               
                 
@@ -229,7 +213,7 @@
 
 <p>We understood we needed to create a frontend for users to interact with and a backend to provide an API for the frontend to manage how users access data.</p>
 
-<p>For the frontend we considered lots of different frameworks including Angular, React and Vue. Ultimately we decided to use React because some of use had some experience with it before and it simplifies creating the website. To create the maps we considered different APIs: OpenLayers, Bing Maps, WebGL, Google Maps. For our prototype we were using Bing Maps but we changed it to MapBox because it BingMaps did not provide the full functionality that we needed. To help the with designing the frontend we used bootstrap because it gives components that can be used very quickly to improve how a user can use the application.</p>
+<p>For the frontend we considered lots of different frameworks including Angular, React and Vue. Ultimately we decided to use React because some of use had some experience with it before and it simplifies creating the website. React promotes encapsulation by separating out code into components which pass data between themselves in a controlled way which we enforced using prop-types. Prop types would check the type of the props we were passing to our components and throw an error if they didn’t match. JavaScript doesn’t have any type checking before runtime so this was very useful. To create the maps we considered different APIs: OpenLayers, Bing Maps, WebGL, Google Maps. For our prototype we were using Bing Maps but we changed it to MapBox because it BingMaps did not provide the full functionality that we needed. MapBox gave us the control to add advanced maps such as funding flow and heatmap. To help the with designing the frontend we used bootstrap because it gives components that can be used very quickly to improve how a user can use the application. We used bootstrap for all the buttons, dropdowns and layout. By using a library for style it helps our site conform to web design standards making it more familiar to users.</p>
 
 <p>For the backend we considered many languages and frameworks. Python, JavaScript, Java, PHP and C# were all languages that we considered but we decided that since we all knew Java it would be the best choice. Java Spring Boot was chosen as the framework because it makes it simple to create endpoints for our backend api.</p>
 

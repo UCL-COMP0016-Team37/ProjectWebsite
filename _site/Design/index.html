@@ -82,14 +82,6 @@
               
                 
               
-              <li class="nav__item">
-                <a href="/2019/group37/prototype/" class="nav__link">Prototype</a>
-              </li>
-              
-                
-              
-                
-              
                 
               
               <li class="nav__item">
@@ -110,14 +102,6 @@
               
               <li class="nav__item">
                 <a href="/2019/group37/evaluation/" class="nav__link">Evaluation</a>
-              </li>
-              
-                
-              
-                
-              
-              <li class="nav__item">
-                <a href="/2019/group37/future/" class="nav__link">Future</a>
               </li>
               
                 
@@ -207,7 +191,8 @@
 		<!-- begin page -->
 		<article class="page col col-8 col-t-10 col-m-12">
 			<div class="page__content">
-				<p>When a user first opens the site they are presented with an overview of the data, a map showing the number of projects in different regions. When the user zooms into this map the regions decrease in size allowing the user to see how many projects are in each country. In addition, hovering on top of the pins would show the country name associated with the pins. When the user clicks on a country it opens a page that allows the user to search and analyse the projects in that country.</p>
+				<h3 id="final-prototype">Final Prototype</h3>
+<p>When a user first opens the site they are presented with an overview of the data, a map showing the number of projects in different regions. When the user zooms into this map the regions decrease in size allowing the user to see how many projects are in each country. In addition, hovering on top of the pins would show the country name associated with the pins. When the user clicks on a country it opens a page that allows the user to search and analyse the projects in that country.</p>
 
 <p>Another overview chart is the top 100 funders. It shows the list of funders with the number of projects they reported. The chart is paginated, as shown, to display the distribution more clearly.</p>
 
@@ -220,6 +205,44 @@ Searching is very important when dealing with large data sets. Our search tool a
 
 <p><img src="/2019/group37/images/architecture.png" alt="" />
 <img src="/2019/group37/images/sitemap2.png" alt="" /></p>
+
+<h3 id="first-prototype">First Prototype</h3>
+<p>Our first prototype tests the essential technologies for our application.
+It has a frontend and backend that communicate.
+This prototype aims to build a resuable and extendable frontend and backend structure rather than build beautiful UIs and different functionalities.
+The main achievement is designing the whole structure of commnication from user all the way for accessing the related data in the database.</p>
+
+<h3 id="system-architecture-diagram">System Architecture Diagram</h3>
+<p>Here is the diagram of our system architecture which display the communication between frontend (client website) and backend (data server and database):
+<img src="/2019/group37/images/architecture.png" alt="" /></p>
+
+<h3 id="backend">Backend</h3>
+<p>The backend has a SpringBoot api to allow the frontend to communicate with it and a database of over a thousand projects.
+Backend is deployed on the <strong>Azure</strong> web server, which includes the web server and database. 
+<img src="/2019/group37/images/back-azure.jpg" alt="" /></p>
+
+<p>Backend is visualized by using Swagger by this <a href="http://mapping-tool-api.azurewebsites.net/swagger-ui.html#/">link</a>, this can be very slow to 
+access since we use a free server at the prototype page. The UI is as following:
+<img src="/2019/group37/images/back-ui.jpg" alt="" /></p>
+
+<p>Current API only support project accessing and user manipulating, however, this provide an extendable structure for future possible functionalities.</p>
+
+<h3 id="frontend">Frontend</h3>
+
+<p>The frontend is a React application which includes a map (using MapBox), search and chart which demonstrate the behaviour using sample data.
+So far, three functionalities are supported: <em>Mapping</em>, <em>Search</em>, and <em>Top 100 Donors</em>.</p>
+
+<p>Mapping achieves that projects are mapped on the world map and display their current number on that region
+<img src="/2019/group37/images/front-map.jpg" alt="" /></p>
+
+<p>Search supports searching a keyword and display the result under a table display.
+<img src="/2019/group37/images/front-search.jpg" alt="" /></p>
+
+<p>Top 100 Donor provides the feature of showing a bar chart for the top donor as well as their projects number.
+<img src="/2019/group37/images/front-top.jpg" alt="" /></p>
+
+<p>Overall, the current site map demostrates the connnection between pages:
+<img src="/2019/group37/images/sitemap.png" alt="" /></p>
 
 			</div>
 		</article>

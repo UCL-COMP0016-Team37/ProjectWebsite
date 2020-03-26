@@ -92,4 +92,4 @@ We have been communicating with and getting feedback from Matt as we progressed 
 
 
 ### Future work
-If we had another 6 months we would have liked to implement more maps and visualisations. These would be maps to show different statistics such as budget, transactions, status of the project. Another feature we would like to implement is the usage of the ANCSSC private member data. It has not been collected yet but it would be very useful as the data should be more consistent and higher quality than the IATI data.
+If we had another 6 months we would have liked to implement more maps and visualisations. These would be maps to show different statistics such as budget, transactions, status of the project. Another feature we would like to implement is the usage of the ANCSSC private member data. It has not been collected yet but it would be very useful as the data should be more consistent and higher quality than the IATI data. Overall we have laid a solid foundation and we have designed systems that are expandable and organised for future developers to add to.
