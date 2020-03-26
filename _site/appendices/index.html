@@ -209,6 +209,28 @@
 			<div class="page__content">
 				<h3 id="quick-start-guide-for-users">Quick Start Guide for users</h3>
 
+<h4 id="main--map-page">MAIN / MAP PAGE</h4>
+<p>Main page shows the number of ngo project around the world which is grouped in a pin. On initial zoom, some countries are grouped together. If the map is zoomed further, the pins will spread to each country in which the user can click to go and view location of each project. If it is then clicked again, user will go to search results page which shows all project in the country.
+<img src="/2019/group37/images/pin-hover.png" alt="" /></p>
+
+<h4 id="project-page">PROJECT PAGE</h4>
+<p>Project page shows all the details of one particular project. Among the data shown includes, location, reporting organisations, budget, overview and transactions.
+<img src="/2019/group37/images/project-page.png" alt="" /></p>
+
+<h4 id="top-100">TOP 100</h4>
+<p>Top 100 page shows the list Top 100 donors/reportiong organisations including their number of projects reported.
+<img src="/2019/group37/images/top-100.png" alt="" /></p>
+
+<h4 id="search">SEARCH</h4>
+<p>In search, user can choose to search either by keyword, sectors or country or any combination of all of them. User will then be redirected to the search results page to view the project list.
+<img src="/2019/group37/images/search.png" alt="" />
+<img src="/2019/group37/images/search-result.png" alt="" /></p>
+
+<h4 id="analysis">ANALYSIS</h4>
+<p>Analysis helps aggregate all the data of the search category and graph it so that user would be able to get the general overview of projects in a country or projects in a sector or a combination of both.
+<img src="/2019/group37/images/analysis.png" alt="" />
+<img src="/2019/group37/images/analysis-page.png" alt="" /></p>
+
 <h3 id="deployment-manual">Deployment manual</h3>
 
 <h4 id="frontend">Frontend</h4>
@@ -279,13 +301,13 @@ For local deployments, since <em>prod</em> branch is connected to the pipeline, 
   <li>Made API docs</li>
 </ul>
 
-<h6 id="project-website">Project Website</h6>
+<h5 id="project-website">Project Website</h5>
 <ul>
   <li>Chosen template using Jekyll</li>
   <li>Uploaded Jekyll template to web server</li>
 </ul>
 
-<h6 id="plan-1">Plan</h6>
+<h5 id="plan-1">Plan</h5>
 <ul>
   <li>Create backend API to access data</li>
   <li>Integrate backend API with frontend</li>
@@ -293,6 +315,128 @@ For local deployments, since <em>prod</em> branch is connected to the pipeline, 
   <li>Add search filters</li>
   <li>Start creating project website with progress so far</li>
   <li>Add more modes to the map</li>
+</ul>
+
+<h3 id="7th-february-2020">7th February 2020</h3>
+<h4 id="progress-2">Progress</h4>
+<p>We made progress in displaying different maps such as a heat map and funding flow map. We also added the ability for the frontend to open and view project pages. Another fix was made to fix eslint on the frontend which was reporting too many errors and being ignored. By making eslint more lenient we improved the quality of the code.</p>
+
+<h4 id="frontend-2">Frontend</h4>
+<ul>
+  <li>Added pin map clustering</li>
+  <li>Added heatmap</li>
+  <li>Added funding flow map</li>
+  <li>Added map control panel</li>
+  <li>Switched funding flow to be more realistic sample data.</li>
+  <li>Added support for viewing IATI project pages</li>
+  <li>Changed navbar style</li>
+  <li>Improved search results by adding a spinner to indicate they are loading</li>
+  <li>Changed search results to use bootstrap cards</li>
+</ul>
+
+<h4 id="backend-2">Backend</h4>
+<ul>
+  <li>Added unit tests for IATI APIs</li>
+  <li>Added publisher API endpoint</li>
+  <li>Refactored utility code to improve readability</li>
+  <li>Added entities to model the data from the IATI (location, contact info, activity dates, reporting organisation, narratives)</li>
+</ul>
+
+<h4 id="plan-2">Plan</h4>
+<ul>
+  <li>Add individual project viewer</li>
+  <li>Fix advanced filter</li>
+</ul>
+
+<h3 id="28th-february-2020">28th February 2020</h3>
+
+<h4 id="progress-3">Progress</h4>
+<p>We had a meeting with the master’s team working with the ANCSSC to discuss what data we are using and how we are using it with the purpose of integrating. We had a large meeting with the representatives of the ANCSSC and the other 2 groups they are working with. They explained how they expected our projects to integrate. We had not been planning this so far and so we proposed to use the IATI data standard as we already are using it and we revised our MoSCoW list with our new expectations and what is obtainable. We had to decide to not include the funding flow map as most of the IATI data did not have a location for the funder and the recipient and so plotting this wouldn’t appear very informative or useful.</p>
+
+<h4 id="frontend-3">Frontend</h4>
+<ul>
+  <li>Designed project page</li>
+  <li>Added sections to project page overview, locations, budgets and transactions.</li>
+  <li>Redesigned the search bar to have a pop up and more advanced filter options.</li>
+  <li>Changed heatmap to be by country region</li>
+  <li>Changed maps to use real IATI data from the backend</li>
+  <li>Changed how the pin map shows data points and zoom gives more detail</li>
+</ul>
+
+<h4 id="backend-3">Backend</h4>
+<ul>
+  <li>Added map API to get data by country</li>
+  <li>Added paging for search</li>
+</ul>
+
+<h4 id="plan-3">Plan</h4>
+<ul>
+  <li>Add funding flow map</li>
+</ul>
+
+<h3 id="13th-march-2020">13th March 2020</h3>
+
+<h4 id="progress-4">Progress</h4>
+<p>We have been discussing with the ANCSSC about how to integrate our project with the other 2 teams. It is difficult for us because we have been using the IATI standard for our project so far and the ANCSSC data does not exist yet so we can’t test with it. We are communicating with the other teams to design a database to use for the data.</p>
+
+<h4 id="frontend-4">Frontend</h4>
+<ul>
+  <li>Fixed missing location in project page (when projects did not specify location this would crash the page)</li>
+  <li>Added mapstyle dropdown on main page to change the design of the map (dark, light, road, satellite)</li>
+  <li>Changed mapstyle to dark on the project page</li>
+  <li>Redesigned project page to be easier to use and understand</li>
+  <li>Added advanced search filters by country and sector</li>
+  <li>Fixed project page not displaying narrative if the narrative is not in english instead use the available language</li>
+  <li>Fixed bug with forward button on paginated search results allowing the user to click forward on the last page of results</li>
+</ul>
+
+<h4 id="backend-4">Backend</h4>
+<ul>
+  <li>Added the ability to filter search results and added this to the API doc</li>
+  <li>Added the endpoint to view transactions</li>
+</ul>
+
+<h4 id="plan-4">Plan</h4>
+<ul>
+  <li>Fix bugs</li>
+  <li>Improve user interface</li>
+</ul>
+
+<h3 id="27th-march-2020">27th March 2020</h3>
+
+<h4 id="progress-5">Progress</h4>
+<p>The final two weeks have been focussed on fixing as many bugs as possible and improving the usability of the application. We have reimplemented a lot of features that we previously removed such as the funding flow map and the heatmap because we found we could use them effectively on the analysis page. We have created all the surrounding documents as well, including feature video, demonstration video, poster, demonstration slides, project website.</p>
+
+<h4 id="frontend-5">Frontend</h4>
+<ul>
+  <li>Removed funding flow map from home page</li>
+  <li>Cleaned up console.logs</li>
+  <li>Changed pin colour for different map styles</li>
+  <li>Added help page with screenshots and guide on how to use the tool</li>
+  <li>Added related activities to project page</li>
+  <li>Fit map on homepage to fill window</li>
+  <li>Added transactions to project page</li>
+  <li>Added top 100 paginated organisations graph</li>
+  <li>Fixed npm audit problems</li>
+  <li>Redesigned homepage and navbar</li>
+  <li>Changed and redesigned search results analysis page</li>
+  <li>Readded funding flow inside of analysis</li>
+  <li>Added heatmap to analysis</li>
+  <li>Fixed edge cases of project page not rendering certain projects</li>
+  <li>Redesigned help page</li>
+  <li>Fixed deployment</li>
+</ul>
+
+<h4 id="backend-5">Backend</h4>
+<ul>
+  <li>Added analysis test</li>
+  <li>Added recipient graph</li>
+  <li>Added sector api and graph analysis</li>
+  <li>Added country api and graph analysis</li>
+  <li>Added top organisations api</li>
+  <li>Added funding flow api</li>
+  <li>Added funding flow unit tests</li>
+  <li>Refactored</li>
 </ul>
 
 			</div>
