@@ -31,10 +31,14 @@ permalink: /evaluation/
 <tr><td>Map projects of members of ANCSSC.</td><td>Wish</td><td>No</td><td>All</td></tr>
 <tr><td>Update custom data</td><td>Wish</td><td>No</td><td>All</td></tr>
 <tr><td>Substitute sample data (IATI) with real member data.</td><td>Wish</td><td>No</td><td>All</td></tr>
+<tr><td>Substitute sample data (IATI) with real member data.</td><td>Wish</td><td>No</td><td>All</td></tr>
+<tr><td>Key functionalities.</td><td>100%</td>
+<tr><td>Optional functionalities.</td><td>100%</td>
 </table>
 
 <p>
-    Note : After researching and discussing with our client, we are no longer required to do the login and license filtering as the functionalities will be handled by the master's team during integration.  Instead, we are required to add ability to show the pin in different kind of map such as satellite map.
+    Research Findings: 
+    After researching and discussing with our client, we are no longer required to do the login and license filtering as the functionalities will be handled by the master's team during integration.  Instead, we are required to add ability to show the pin in different kind of map such as satellite map.
 </p>
 
 ### Bug List
