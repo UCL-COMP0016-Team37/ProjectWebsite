@@ -192,6 +192,13 @@
 		<article class="page col col-8 col-t-10 col-m-12">
 			<div class="page__content">
 				<h3 id="final-prototype">Final Prototype</h3>
+
+<p>Search results are divided into a group of 10 to reduce the lag from returning the results list. This is important, especially as some searches could return tens of thousand of results.</p>
+
+<p>As for the pin map, data requested from the backend are processed to get the coordinates for the pins as well as adding project numbers to the pins. if the user zooms out to a certain extent, the pins are clustered to the country nearby. This is important to improve the visibility of the pins for the user. On the other hand, heatmap and funding flow map require a geojson object to be fed to the map layer, thus the data obtained is processed and converted to a form of geojson format before being rendered.</p>
+
+<p>Data is requested by the frontend to the backend on an API endpoint. The backend then uses this request and makes a subsequent request to the IATI cloud. When it receives its response it serializes the data into plain old java objects. Then it converts these to JSON to be sent to the frontend. The frontend receives this JSON data inside a promise and when the promise is fulfilled it updates the state of the component with the response. If there is an error it will instead update the state with the error. Then the render method of the component utilises the data in rendering different components for example graphs, maps, search results or the project page.</p>
+
 <p>In the frontend we use make use of separation of concerns and encapsulation by separating our code into components. These components pass props between each other in a tightly controlled fashion using prop types. This makes it easy to expand in the future and very scalable. We also separate our code such that we must use defined API endpoints in the utils/backendApi.js. This helps inform future developers of the api endpoints available.</p>
 
 <p>When a user first opens the site they are presented with an overview of the data, a map showing the number of projects in different regions. When the user zooms into this map the regions decrease in size allowing the user to see how many projects are in each country. In addition, hovering on top of the pins would show the country name associated with the pins. When the user clicks on a country it opens a page that allows the user to search and analyse the projects in that country.</p>
