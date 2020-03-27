@@ -198,7 +198,7 @@
 <p><img src="/2019/group37/images/ngo-aid-map.png" alt="" />
 (<a href="https://ngoaidmap.org/">https://ngoaidmap.org/</a>, 2020)</p>
 
-<p>NGO Aid Map [1] is a website that provides tools to find and filter NGO projects. They currently have 988 projects with 66 organizations. Their website allows users to navigate using a map clicking on countries to view the projects there. It also has a search which can filter by sector, location and reporting organization.</p>
+<p>NGO Aid Map [1] is a website that provides tools to find and filter NGO projects. They currently have 988 projects with 66 organizations. Their website allows users to navigate using a map clicking on countries to view the projects there. It also has a search which can filter by sector, location and reporting organization. The drawback of using this is does not provide much data or insight.</p>
 
 <p><img src="/2019/group37/images/ngo-aid-map-search.png" alt="" />
 (<a href="https://ngoaidmap.org/">https://ngoaidmap.org/</a>, 2020)</p>
@@ -206,20 +206,11 @@
 <p><img src="/2019/group37/images/dportal.png" alt="" />
 (<a href="http://www.d-portal.org">http://www.d-portal.org</a>, 2020)</p>
 
-<p>d-portal [2] is a website that can browse and analyse the IATI data. The tool allows users to perform search and filter. The search results can then be graphed in different aspects and it generates reports based on the aggregates of different axes. It also allows the user to view individual projects in a clean and easy to understand format.</p>
-
-<ul>
-  <li>
-    <p><a href="https://ngoaidmap.org/">https://ngoaidmap.org/</a></p>
-  </li>
-  <li>
-    <p><a href="http://www.d-portal.org">http://www.d-portal.org</a></p>
-  </li>
-</ul>
+<p>d-portal [2] is a website that can browse and analyse the IATI data. The tool allows users to perform search and filter. The search results can then be graphed in different aspects and it generates reports based on the aggregates of different axes. It also allows the user to view individual projects in a clean and easy to understand format. The drawbacks of d-portal is it is hard to use and not user friendly.</p>
 
 <h3 id="data-sets">Data Sets:</h3>
 
-<p>Our client pointed us towards different data sets because their own data was not ready yet. The IATI (International Aid Transparency Initiative) <a href="https://iatistandard.org">https://iatistandard.org</a> is a global initiative that provides a large amount of data on humanitarian activities. Currently they have over a million published activities to their standard. Their data sets can be downloaded from <a href="https://data.humdata.org/organization/iati?q=&amp;ext_page_size=100">https://data.humdata.org/organization/iati?q=&amp;ext_page_size=100</a>. This data needs to be downloaded for each country so it would be a good idea to automate this.</p>
+<p>Our client pointed us towards different data sets because their own data was not ready yet. The IATI (International Aid Transparency Initiative) [3] is a global initiative that provides a large amount of data on humanitarian activities. Currently they have over a million published activities to their standard. Their data sets can be downloaded from <a href="https://data.humdata.org/organization/iati?q=&amp;ext_page_size=100">https://data.humdata.org/organization/iati?q=&amp;ext_page_size=100</a>. This data needs to be downloaded for each country so it would be a good idea to automate this.</p>
 
 <h3 id="technologies">Technologies</h3>
 
@@ -230,6 +221,20 @@
 <p>For the frontend we considered lots of different frameworks including Angular, React and Vue. Ultimately we decided to use React because some of use had some experience with it before and it simplifies creating the website. React promotes encapsulation by separating out code into components which pass data between themselves in a controlled way which we enforced using prop-types. Prop types would check the type of the props we were passing to our components and throw an error if they didn’t match. JavaScript doesn’t have any type checking before runtime so this was very useful. To create the maps we considered different APIs: OpenLayers, Bing Maps, WebGL, Google Maps. For our prototype we were using Bing Maps but we changed it to MapBox because it BingMaps did not provide the full functionality that we needed. MapBox gave us the control to add advanced maps such as funding flow and heatmap. To help the with designing the frontend we used bootstrap because it gives components that can be used very quickly to improve how a user can use the application. We used bootstrap for all the buttons, dropdowns and layout. By using a library for style it helps our site conform to web design standards making it more familiar to users.</p>
 
 <p>For the backend we considered many languages and frameworks. Python, JavaScript, Java, PHP and C# were all languages that we considered but we decided that since we all knew Java it would be the best choice. Java Spring Boot was chosen as the framework because it makes it simple to create endpoints for our backend api.</p>
+
+<h4 id="references">References</h4>
+
+<ul>
+  <li>
+    <p><a href="https://ngoaidmap.org/">https://ngoaidmap.org/</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.d-portal.org">http://www.d-portal.org</a></p>
+  </li>
+  <li>
+    <p><a href="https://iatistandard.org">https://iatistandard.org</a></p>
+  </li>
+</ul>
 
 			</div>
 		</article>
