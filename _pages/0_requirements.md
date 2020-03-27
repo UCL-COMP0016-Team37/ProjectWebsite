@@ -58,3 +58,6 @@ Substitute public data (IATI) with real member data.
 Map projects of members of ANCSSC.
 
 Give the ability for users to update the data.
+
+## Use Case Diagram
+![]({{site.baseurl}}/images/use-cases.png)
