@@ -34,10 +34,10 @@ For the frontend we considered lots of different frameworks including Angular, R
 
 For the backend we considered many languages and frameworks. Python, JavaScript, Java, PHP and C# were all languages that we considered but we decided that since we all knew Java it would be the best choice. Java Spring Boot was chosen as the framework because it makes it simple to create endpoints for our backend api.
 
-#### References
+### References
 
-* [https://ngoaidmap.org/](https://ngoaidmap.org/)
+* [1] InterAction. "NGO Aidmap" [Online]. Available: [https://ngoaidmap.org/](https://ngoaidmap.org/) [Accessed March 2020].
 
-* [http://www.d-portal.org](http://www.d-portal.org)
+* [2] d-portal. "d-portal" [Online]. Available: [http://www.d-portal.org](http://www.d-portal.org) [Accessed March 2020].
 
-* [https://iatistandard.org](https://iatistandard.org)
+* [3] IATI. "IATI standard" [Online]. Available: [https://iatistandard.org](https://iatistandard.org) [Accessed March 2020].
