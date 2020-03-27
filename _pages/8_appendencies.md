@@ -30,6 +30,8 @@ Analysis helps aggregate all the data of the search category and graph it so tha
 
 ### Deployment manual
 
+The estimated cost of running the site on Azure cloud services is £50 per month.
+
 #### Frontend
 Frontend is deployed based on Node.js server structure and developed using React.js, hence, we use `npm` to deploy and install dependencies.
 
@@ -38,7 +40,7 @@ For running it on the local machines, we needs to do following:
 * To deploy to `build` folder by running `npm run build`
 * To run locally by running `npm start`
 
-The frontend is available [here](http://mappingtoolfrontend.azurewebsites.net/).
+The frontend is available [http://mappingtoolfrontend.azurewebsites.net/](http://mappingtoolfrontend.azurewebsites.net/).
 
 
 #### Backend

@@ -10,10 +10,19 @@ We looked at projects that provide a similar solution.
 ![]({{site.baseurl}}/images/ngo-aid-map.png)
 ([https://ngoaidmap.org/](https://ngoaidmap.org/), 2020)
 
-NGO Aid Map [https://ngoaidmap.org/](https://ngoaidmap.org/) is a website that provides tools to find and filter NGO projects. They currently have 988 projects with 66 organizations. Their website allows users to navigate using a map clicking on countries to view the projects there. It also has a search which can filter by sector, location and reporting organization.
+NGO Aid Map [1] is a website that provides tools to find and filter NGO projects. They currently have 988 projects with 66 organizations. Their website allows users to navigate using a map clicking on countries to view the projects there. It also has a search which can filter by sector, location and reporting organization.
 
 ![]({{site.baseurl}}/images/ngo-aid-map-search.png)
 ([https://ngoaidmap.org/](https://ngoaidmap.org/), 2020)
+
+![]({{site.baseurl}}/images/dportal.png)
+([http://www.d-portal.org](http://www.d-portal.org), 2020)
+
+d-portal [2] is a website that can browse and analyse the IATI data. The tool allows users to perform search and filter. The search results can then be graphed in different aspects and it generates reports based on the aggregates of different axes. It also allows the user to view individual projects in a clean and easy to understand format.
+
+* [https://ngoaidmap.org/](https://ngoaidmap.org/)
+
+* [http://www.d-portal.org](http://www.d-portal.org)
 
 ### Data Sets:
 

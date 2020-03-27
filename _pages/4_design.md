@@ -5,6 +5,8 @@ permalink: /Design/
 ---
 
 ### Final Prototype
+In the frontend we use make use of separation of concerns and encapsulation by separating our code into components. These components pass props between each other in a tightly controlled fashion using prop types. This makes it easy to expand in the future and very scalable.
+
 When a user first opens the site they are presented with an overview of the data, a map showing the number of projects in different regions. When the user zooms into this map the regions decrease in size allowing the user to see how many projects are in each country. In addition, hovering on top of the pins would show the country name associated with the pins. When the user clicks on a country it opens a page that allows the user to search and analyse the projects in that country.
 
 Another overview chart is the top 100 funders. It shows the list of funders with the number of projects they reported. The chart is paginated, as shown, to display the distribution more clearly.
